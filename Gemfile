@@ -43,9 +43,20 @@ gem 'twitter-bootstrap-rails'
 # [Rails Form Builders](https://www.ruby-toolbox.com/categories/rails_form_builders)
 gem 'simple_form'
 
+# Debuggers
+gem 'awesome_print'
+gem 'tapp'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+
+  # Debuggers
+  gem 'pry-byebug'
+  gem 'pry-rails'
+
+  # [Configuration Management](https://www.ruby-toolbox.com/categories/Configuration_Management)
+  gem 'dotenv-rails'
 end
 
 group :development do
