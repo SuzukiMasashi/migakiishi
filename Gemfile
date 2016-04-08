@@ -32,6 +32,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# [Template Engines](https://www.ruby-toolbox.com/categories/template_engines)
+gem 'haml-rails'
+
 # [CSS with Ruby](https://www.ruby-toolbox.com/categories/css_with_ruby)
 gem 'therubyracer'
 gem 'less-rails'
